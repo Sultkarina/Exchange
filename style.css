@@ -1,0 +1,318 @@
+.exchange{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 1200px;
+    height: 300px;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.10);
+    padding: 30px 60px;
+    
+    
+}
+
+.exchange_header {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    padding-top: 44px;
+
+}
+
+
+.exchange_title {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+    /* 32.48px */
+    margin-right: 6px;
+
+
+}
+
+.exchange_country {
+    color: #036B5A;
+    font-family: Gilroy;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%;
+}
+
+.exchange_arrow {
+    width: 32px;
+    height: 32px;
+}
+
+.exchange_send-button {
+    height: 48px;
+    padding: 0 26px;
+    align-items: center;
+    border-radius: 6px;
+    background: #FAEDDE;
+    cursor: pointer;
+    border: none;
+    margin-left: 40px;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 116%;
+    /* 18.56px */
+}
+
+.exchange_rate {
+    padding-top: 57px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.exchange__rate-text{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+    letter-spacing: 0.16px;
+    opacity: 0.5;
+
+}
+
+.exchange__rate-value {
+    color: #000;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    /* 137.5% */
+    letter-spacing: 0.16px;
+}
+
+.exchange__rate-info {
+    position: relative;
+    width: 46px;
+    height: 46px;
+    z-index: 1;
+}
+
+.exchange__rate-question {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #000;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.16px;
+    z-index: 2;
+}
+
+.exchange__divider {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    border: none;
+    color: #333;
+    background-color: #333;
+    opacity: 0.1;
+    margin-bottom: 40px;
+}
+
+.exchange__input {
+    display: flex;
+    align-items: center;
+    width: 367px;
+    height: 62px;
+    padding: 0 26px;
+    background: #F2F4F7;
+    border-radius: 6px;
+}
+
+.exchange__input-number {
+    font-size: 18px;
+    border: none;
+    background: transparent;
+    width: 100px;
+}
+
+.exchange__input-currency {
+    font-size: 18px;
+    color: #036B5A;
+    margin-left: auto;
+    border: none;
+    background: transparent;
+}
+
+.exchange__arrows {
+    width: 18px;
+    height: 18px;
+    opacity: 0.9;
+}
+
+
+.exchange__conversion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-right: auto;
+
+}
+
+.exchange__frame {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 367px;
+    height: 62px;
+    border-radius: 6px;
+    background: #F2F4F7;
+    padding-left: 26px;
+    padding-right: 26px;
+
+}
+
+
+.exchange__arrows {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    opacity: 0.9;
+
+}
+
+
+.exchange__continue-icon {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    padding-left: 23px;
+}
+
+.exchange__continue-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    width: 263px;
+    height: 62px;
+    border-radius: 6px;
+    background: #036B5A;
+    margin-left: 42px;
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.16px;
+    text-transform: uppercase;
+
+
+}
+
+.exchange__continue-right {
+    height: 24px;
+    padding-right: 20px;
+    margin-left: auto;
+}
+
+.exchange_guarantee_text {
+    display: flex;
+    width: 212px;
+    height: 36px;
+    color: #036B5A;
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 18.2px */
+    letter-spacing: 0.14px;
+
+}
+
+
+.exchange_guarantee {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    flex-wrap: wrap;
+
+    margin-top: 12px;
+    margin-right: 15px;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-ExtraBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('Gilroy-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 304px;
+    height: 240px;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.10);
+    margin-top: 40px;
+    position: relative;
+}
+
+.product_image{width: 234.205px;
+    height: 206.995px;
+    border-radius: 12px;
+margin-top: 26.24px;
+margin-left: 36.93px;}
+
+.product__name{width: 244px;
+    height: 27px;
+    color: var(--, #2D2D2D);
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+bottom: 45px;
+left: 27px;
+position: absolute; }
+
+.product__price{color: #55BC66;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 244px;
+    height: 27px;
+    position: absolute;
+bottom: 15px;
+left: 27px;}
+
